@@ -1,37 +1,52 @@
-<div class="container">
+<!DOCTYPE html>
+<html>
+  <head>
+<%= stylesheet_link_tag 'estilos.css' %>
+  </head>
+  <body>
+
+  <div class="container">
   <div class="row">
     <div class="col-md-4">
       <div class="card">
-        <img src="/assets/project1.jpg" class="card-img-top" alt="Project 1">
+      <%= image_tag 'imagen1.png', class: 'card-img-top', alt: 'Project 1' %>
         <div class="card-body">
           <h5 class="card-title">Proyecto 1</h5>
-          <p class="card-text">Breve descripción del proyecto 1.</p>
+          <p class="card-text">Proyecto orientado a la compra de alimentos mediante delivery generando tiempos de respuestas mas rapido que la competencia.</p>
           <a href="#" class="btn btn-primary">Ver más</a>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="card">
-        <img src="/assets/project2.jpg" class="card-img-top" alt="Project 2">
+      <%= image_tag 'imagen2.png', class: 'card-img-top', alt: 'Project 2' %>
         <div class="card-body">
           <h5 class="card-title">Proyecto 2</h5>
-          <p class="card-text">Breve descripción del proyecto 2.</p>
+          <p class="card-text">aplicación enfocada en la busqueda de habitaciones mediante inteligencia artificial busca lugares mas cercanos y precisos.</p>
           <a href="#" class="btn btn-primary">Ver más</a>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="card">
-        <img src="/assets/project3.jpg" class="card-img-top" alt="Project 3">
+      <%= image_tag 'imagen3.png', class: 'card-img-top', alt: 'Project 3' %>
         <div class="card-body">
           <h5 class="card-title">Proyecto 3</h5>
-          <p class="card-text">Breve descripción del proyecto 3.</p>
+          <p class="card-text">Aplicacion basado en optimización de rutas para un mejor control de los pedidos que puede generar una empresa aplicando KPI y mejorando cada proceso .</p>
           <a href="#" class="btn btn-primary">Ver más</a>
         </div>
       </div>
     </div>
   </div>
 </div>
+  
+  </body>
+</html>
+
+
+
+
+
 
 
 
