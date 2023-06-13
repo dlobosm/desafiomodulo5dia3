@@ -1,0 +1,31 @@
+.btn-primary {
+    background-color: #ff0000; /* Cambia el color de fondo a tu preferencia */
+    border-color: #ff0000; /* Cambia el color del borde a tu preferencia */
+    /* Añade cualquier otra personalización adicional que desees */
+  }
+
+  /* styles.css */
+
+.presentation-header {
+    background-color: #0e8fd01e;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .presentation-title {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .presentation-subtitle {
+    font-size: 18px;
+    color: #0b71e593;
+  }
+
+  
+
+
+  
+  
+  
+  
